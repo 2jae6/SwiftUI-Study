@@ -58,10 +58,10 @@
 		00EFFDD12554D49D00BC9EC4 /* SwiftUINavigationView */ = {
 			isa = PBXGroup;
 			children = (
-				00EFFDE72554D4E800BC9EC4 /* SwiftUI.png */,
 				00EFFDD22554D49D00BC9EC4 /* AppDelegate.swift */,
 				00EFFDD42554D49D00BC9EC4 /* SceneDelegate.swift */,
 				00EFFDD62554D49D00BC9EC4 /* ContentView.swift */,
+				00EFFDE72554D4E800BC9EC4 /* SwiftUI.png */,
 				00EFFDD82554D49E00BC9EC4 /* Assets.xcassets */,
 				00EFFDDD2554D49E00BC9EC4 /* LaunchScreen.storyboard */,
 				00EFFDE02554D49E00BC9EC4 /* Info.plist */,

@@ -30,3 +30,14 @@ List{
 ~~~
 
 </details>
+
+<details><summary>리스트 동적 출력 - id </summary>
+            
+~~~
+            
+ List(["A", "B", "C", "D", "E"], id: \.self){
+            Text("\($0)")
+        }
+~~~
+
+</details>

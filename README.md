@@ -55,3 +55,25 @@ List{
 ~~~
 
 </details>
+
+<details><summary>리스트 정적 동적 출력 - ForEach 배열 </summary>
+            
+~~~
+            
+    let fruits = ["사과", "배", "포도", "바나나"]
+        let drinks = ["물", "우유", "탄산수"]
+        
+        List{
+            Text("Fruits").font(.largeTitle)
+            ForEach(fruits, id: \.self){
+                Text($0)
+            }
+            
+            Text("Drink").font(.largeTitle)
+            ForEach(drinks, id: \.self){
+                Text($0)
+            }
+        }
+~~~
+
+</details>

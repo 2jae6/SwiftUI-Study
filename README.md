@@ -41,3 +41,17 @@ List{
 ~~~
 
 </details>
+
+<details><summary>리스트 정적 동적 출력 - ForEach </summary>
+            
+~~~
+            
+  List{
+            Text("번호")
+            ForEach(0 ..< 50){
+                Text("\($0)")
+            }
+        }
+~~~
+
+</details>

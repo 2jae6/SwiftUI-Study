@@ -18,3 +18,15 @@ List{
 ~~~
 
 </details>
+
+
+<details><summary>리스트 동적 출력 - Range </summary>
+            
+~~~
+            
+ List(0 ..< 100){
+            Text("\($0)")
+        }
+~~~
+
+</details>
